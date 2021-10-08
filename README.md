@@ -1,2 +1,3 @@
-# Projeto de clone do Twitter desenvolvido no curso completo de desenvolvimento web da Udemy
+# Twitter Clone
+# Desenvolvido no curso completo de desenvolvimento web da Udemy
 
