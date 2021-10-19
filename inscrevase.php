@@ -11,6 +11,7 @@
 
 	<!-- bootstrap - link cdn -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	
 </head>
 
 <body>
@@ -26,7 +27,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<img src="imagens/icone_twitter.png" />
-			</div>
+			</div> 
 
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
