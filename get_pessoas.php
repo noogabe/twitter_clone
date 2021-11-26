@@ -25,6 +25,10 @@
             echo 
                 "<a href='#' class='list-group-item'>
                     <strong>".$registro['usuario']."</strong> <small> - ".$registro['email']." - </small>
+                    <p class='list-group-item-text pull-right'>
+                        <button type='button' class='btn btn-default'>Seguir</button>
+                    </p>
+                    <div class='clearfix'></div>
                 </a>";
         }
 
