@@ -26,7 +26,7 @@
                 "<a href='#' class='list-group-item'>
                     <strong>".$registro['usuario']."</strong> <small> - ".$registro['email']." - </small>
                     <p class='list-group-item-text pull-right'>
-                        <button type='button' class='btn btn-default'>Seguir</button>
+                        <button type='button' class='btn btn-default btn_seguir' data-id_usuario=".$registro['id'].">Seguir</button>
                     </p>
                     <div class='clearfix'></div>
                 </a>";
