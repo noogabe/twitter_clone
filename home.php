@@ -34,11 +34,23 @@
 						data: $("#form-tweet").serialize(),
 						success: function(data){
 							$("#texto_tweet").val('');
-							alert('Tweet incluído com sucesso!');
+							atualizaTweet();
 						}
 					});
 				}
 			});
+
+			function atualizaTweet(){
+				/* Carregar tweets */
+				$.ajax({
+					url: 'get_tweet.php',
+					success: function(data) {
+						$("#tweets").html(data);
+					}
+				});
+			}
+
+			atualizaTweet();
 		});
 
 	</script>
@@ -64,7 +76,6 @@
 					<li><a href="sair.php">Sair</a></li>
 				</ul>
 			</div>
-			<!--/.nav-collapse -->
 		</div>
 	</nav>
 
@@ -93,7 +104,10 @@
 							<button class="btn btn-default" id="btn_tweet" type="button">Tweet</button>
 						</span>
 					</form>
-				</div>
+				</div>	
+			</div>
+			<div id="tweets" class="list-group">
+
 			</div>
 		</div>
 		<div class="col-md-3">
