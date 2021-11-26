@@ -65,7 +65,7 @@
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="inscrevase.php">Inscrever-se</a></li>
-					<li class="<?= $erro == 1 ? 'open' : '' ?>">
+					<li class="<?= $erro == 1 || $erro == 2 ? 'open' : '' ?>">
 						<a id="entrar" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Entrar</a>
 						<ul class="dropdown-menu" aria-labelledby="entrar">
 							<div class="col-md-12">
@@ -89,6 +89,8 @@
 								<?php
 									if($erro == 1)
 										echo '<font color="#FF0000">Usuário e/ou senha inválido(s)</font>';
+									else if($erro == 2)
+										echo '<font color="#FF0000">Você precisa entrar com seu usuário e senha!</font>';
 								?>
 								</form>
 						</ul>

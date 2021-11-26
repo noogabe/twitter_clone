@@ -2,7 +2,7 @@
     session_start();
 
     if(!isset($_SESSION['usuario'])){
-        header('Location: index.php?erro=1');
+        header('Location: index.php?erro=2');
     }
 ?>
 
@@ -10,9 +10,6 @@
 <html lang="pt-br">
 
 <head>
-
-<!-- teste commit -->
-testeteste
 
 	<meta charset="UTF-8">
 
