@@ -39,27 +39,27 @@ $ git clone https://github.com/GabrieleAlmeida/twitter_clone.git
 <h1 align="center">
 
 <img src="https://github.com/GabrieleAlmeida/twitter_clone/blob/main/imagens/index.png"
-    height="400">
+    height="100%">
     
 </h1>
 
 <h1 align="center">
 
 <img src="https://github.com/GabrieleAlmeida/twitter_clone/blob/main/imagens/inscrevase.png"
-    height="400">
+    height="100%">
     
 </h1>
 
 <h1 align="center">
 
 <img src="https://github.com/GabrieleAlmeida/twitter_clone/blob/main/imagens/home.png"
-    height="400">
+    height="100%">
     
 </h1>
 
 <h1 align="center">
 
 <img src="https://github.com/GabrieleAlmeida/twitter_clone/blob/main/imagens/procurar_pessoas.png"
-    height="400">
+    height="100%">
     
 </h1>
