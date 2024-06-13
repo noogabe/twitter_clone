@@ -22,15 +22,15 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 #Parte 2: No Xampp, dê start nos módulos Apache e Mysql
 
 #Parte 3: Clone o repositório para sua máquina local
-$ git clone https://github.com/GabrieleAlmeida/twitter_clone.git
+$ git clone https://github.com/noogabe/twitter_clone.git
 
 #Parte 4: Mova o repositório para o diretório C:\xampp\htdocs
 
-#Parte 5: Em seu navegador, digite localhost/phpmyadmin e crie um banco de dados chamado 'twitter_clone'
+#Parte 5: Em seu navegador, digite localhost:80/phpmyadmin e crie um banco de dados chamado 'twitter_clone'
 
 #Parte 6: Importe o arquivo twitter_clone.sql para o seu banco de dados
 
-#Parte 7: Depois é so abrir o seguinte endereço em seu navegador: localhost/twitter_clone/index.php
+#Parte 7: Depois é so abrir o seguinte endereço em seu navegador: localhost:80/twitter_clone/index.php
 
 ```
 
